@@ -1,7 +1,21 @@
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Services from "./components/Services/Services";
+import TablePrice from "./components/Table/TablePrice";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <main>
+        <Header />
+        <About />
+        <Services />
+        <TablePrice />
+        <Contact />
+        <Footer />
+      </main>
     </>
   );
 }
